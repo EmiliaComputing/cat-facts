@@ -10,10 +10,6 @@ response = urllib.request.urlopen(url)
 json_data = response.read()
 cat_data = json.loads(json_data)
 all_facts = cat_data['all']
-#for fact in all_facts[1:10]:
-##    text = fact['text']
-##    print(text)
-##    print()
 
 while True:
     prompt = input('press enter to get a random cat fact')
