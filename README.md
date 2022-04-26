@@ -13,11 +13,11 @@ The user interacts with the computer by pressing enter for a new fact to be prin
 
 This project uses a “while”, condition controlled, loop so that the program prints a random fact from a website every time the enter key on the keyboard is pressed. Below is an extract of the code, written in python, which shows how this loop works:
 
-  while True:
-    prompt = input(“press enter to get a random cat fact”)
-    random_fact = random.choice(all_facts)
-    print(random_fact[“text”])
-    print()
+    while True:
+      prompt = input(“press enter to get a random cat fact”)
+      random_fact = random.choice(all_facts)
+      print(random_fact[“text”])
+      print()
 
 ### Evaluation
 I feel that this project went well as I successfully gained knowledge about the functions of python and JSON. I created a short project which demonstrates this by extracting and printing random cat facts from websites.
